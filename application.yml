@@ -1,3 +1,9 @@
+spring:
+  application:
+    name: omop-converter
+  main:
+    allow-bean-definition-overriding: true
+
 internal:
   kafka:
     bootstrap.servers: 127.0.0.1:9092
