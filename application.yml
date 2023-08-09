@@ -1,1 +1,13 @@
-
+internal:
+  kafka:
+    bootstrap.servers: 127.0.0.1:9092
+    topic: topic
+  tracking:
+    enabled: false
+  omop:
+    db:
+      url: jdbc:sqlserver://10.85.9.161:1433;database=omop;
+      username: omopuser
+      password: d1fguaHa
+      schema: omopv5
+      driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
