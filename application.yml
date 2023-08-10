@@ -6,7 +6,7 @@ spring:
 
 internal:
   kafka:
-    bootstrap.servers: 127.0.0.1:2006
+    bootstrap.servers: 127.0.0.1:2023
     topic: topic
   tracking:
     enabled: false
